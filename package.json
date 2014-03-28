@@ -1,6 +1,6 @@
 {
   "name": "express-cookie-blacklist",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Blacklist data from entering cookies.",
   "main": "index.js",
   "scripts": {
