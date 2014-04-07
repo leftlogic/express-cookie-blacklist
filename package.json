@@ -4,7 +4,7 @@
   "description": "Blacklist data from entering cookies.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -R spec && node ./test/server.js & dalek ./test/cookieMiddleware.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/allouis/express-cookie-blacklist",
   "dependencies": {
-    "connect": "~2.14.3"
+    "connect": "~2.14.3",
+    "dalekjs": "0.0.8"
   },
   "devDependencies": {
     "mocha": "~1.18.2",
