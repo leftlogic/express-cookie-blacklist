@@ -13,7 +13,6 @@ app.use(cookieBlacklistSession({
 }));
 
 app.get('/', function (req, res, next) {
-  console.log(req.session);
   req.session.safety = 'you should never see me';
   req.session.okay = 'you can see me';
   res.send(200);
