@@ -26,6 +26,8 @@
   },
   "devDependencies": {
     "mocha": "~1.18.2",
-    "should": "~3.2.0-beta1"
+    "should": "~3.2.0-beta1",
+    "dalekjs": "0.0.8",
+    "express": "~3.5.1"
   }
 }
