@@ -42,7 +42,6 @@ describe('deleteItem', function () {
     var string = '';
     var object = {};
     var depthObj = object;
-    console.log(depth);
     for (var i = 0; i < depth; i++) {
       depthObj.newDepth = {};
       depthObj = depthObj.newDepth; 
