@@ -5,6 +5,7 @@ var app = express();
 
 app.use(express.cookieParser());
 app.use(cookieBlacklistSession({
+  secret: 'secretwithbase',
   blacklist: [
     'safety'
   ],
