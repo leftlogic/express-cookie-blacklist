@@ -18,4 +18,8 @@ app.get('/', function (req, res, next) {
   res.send(200);
 });
 
-app.listen(8462);
+app.get('/close', function () {
+  server.close();
+});
+
+var server = app.listen(8462);
