@@ -3,6 +3,8 @@ module.exports = {
     dalek.open('localhost:8462')
       .assert.cookie('test', 'okay=you can see me')
       .done();
+    dalek.open('localhost:8462/close')
+      .done();
   }
 };
 
