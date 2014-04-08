@@ -21,10 +21,6 @@
     "url": "https://github.com/allouis/express-cookie-blacklist/issues"
   },
   "homepage": "https://github.com/allouis/express-cookie-blacklist",
-  "dependencies": {
-    "connect": "~2.14.3",
-    "dalekjs": "0.0.8"
-  },
   "devDependencies": {
     "mocha": "~1.18.2",
     "should": "~3.2.0-beta1",
