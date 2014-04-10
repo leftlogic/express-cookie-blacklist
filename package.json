@@ -28,6 +28,6 @@
     "express": "~3.5.1"
   },
   "dependencies": {
-    "underscore": "~1.6.0"
+    "clone": "~0.1.11"
   }
 }
