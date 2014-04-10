@@ -6,8 +6,8 @@ module.exports = function (connect) {
     var cookieSessionMiddleware = connect.cookieSession.apply(connect, arguments);
     var blacklist = options.blacklist;
     return function (req, res, next) {
-      req._sessionBeforeBlacklist = _.clone(req.session);
       res.on('header', function () {
+        req._sessionBeforeBlacklist = _.clone(req.session);
         if (blacklist) {
           blacklist.forEach(function(key) {
             deleteItem(req.session, key);
