@@ -26,5 +26,8 @@
     "should": "~3.2.0-beta1",
     "dalekjs": "0.0.8",
     "express": "~3.5.1"
+  },
+  "dependencies": {
+    "underscore": "~1.6.0"
   }
 }
